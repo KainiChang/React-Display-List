@@ -1,14 +1,16 @@
 import React from 'react';
-
+import Header from "./components/Header"
+import Meme from "./components/Meme"
 function App() {
-  const names=["Janmes","Kaini","Johney","David"]
-  console.log(names)
   return (
-    names.map((item)=>   
-    <p>
-     {item}
-    </p>
-  ))
+    <div>
+
+      <Header />
+
+      <Meme />
+
+    </div>)
+
 }
 
 export default App;
